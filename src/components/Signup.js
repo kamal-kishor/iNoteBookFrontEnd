@@ -16,7 +16,7 @@ const Signup = (props) => {
   const handleClick = async (e) => {
     e.preventDefault();
     const { name, email, password } = credential;
-    const response = await fetch("http://localhost:3030/api/auth/createuser", {
+    const response = await fetch("https://vercel.com/kamal-kishor/i-note-book-bak-end/BKya3eyohQfc2YQKiGpzSa1ZQxUT/api/auth/createuser", {
       method: "POST",
       headers: {
         "content-Type": "application/json",
